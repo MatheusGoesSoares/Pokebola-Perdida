@@ -1,15 +1,20 @@
+h1{
+    font-size: 2.4rem;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
 @media (max-width: 480px) {
     body {
         font-size: 1.8rem;
     }
 
     h1{
-        font-size: 1.2rem;
+        font-size: 8px;
 
     }
 
     .container {
-        width: 85%;
+        width: 80%;
         padding: 24px 18px;
     }
 
@@ -65,16 +70,12 @@ p{
 
 .background {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  max-width: 420px;
+  inset: 0;
   background-image: url('background.jpg');
   background-size: cover;
   background-position: center;
   filter: blur(8px);
-  transform: scale(1.1);
+  z-index: -1;
 }
 
 .pokebola {
