@@ -5,22 +5,26 @@ h1{
 }
 @media (max-width: 480px) {
     body{
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.2;
     margin-bottom: 16px;
     }
 
     .container {
-        width: 90%;
-        padding: 24px 18px;
+        width: 85%;
+        padding: 16px 14px;
     }
 
     .pokebola {
-        width: 120px;
+        width: 95px;
     }
 
     .imagempokemon {
         width: 150px;
+    }
+
+    p{
+        font-size: 0.9rem;
     }
 }
 
