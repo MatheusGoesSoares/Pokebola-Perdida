@@ -1,6 +1,6 @@
 # Pokébola Misteriosa 
 
-Projeto web interativo onde o usuário clica em uma pokébola para descobrir qual Pokémon foi sorteado.
+Projeto web e mobile interativo onde o usuário clica em uma pokébola para descobrir qual Pokémon foi sorteado.
 
 A aplicação simula uma mecânica simples de sorteio, com animação da pokébola e revelação aleatória de um Pokémon.
 
