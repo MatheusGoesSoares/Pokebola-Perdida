@@ -20,7 +20,6 @@ body{
     min-height: 100vh;
     font-family: 'Arial', sans-serif;
     font-size: 1.6rem;
-    background: linear-gradient(180deg, #fcfbfb 0%, #f5b1b1 100%);
     display: flex;
     justify-content: center;
     align-items: center;
