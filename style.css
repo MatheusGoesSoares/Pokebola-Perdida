@@ -1,0 +1,118 @@
+@media (max-width: 480px) {
+    body {
+        font-size: 1.2rem;
+    }
+
+    .container {
+        padding: 16px 12px;
+    }
+
+    .pokebola {
+        width: 120px;
+    }
+
+    .imagempokemon {
+        width: 150px;
+    }
+}
+body{
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.6rem;
+    background: linear-gradient(180deg, #fcfbfb 0%, #f5b1b1 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+img{
+    width:190px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+p{
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 10px;
+}
+
+
+
+.container {
+  background: rgba(255, 255, 255, 0.92);
+  padding: 24px 20px;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 700px;
+  width: 90%;
+  backdrop-filter: blur(6px);
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 100%;
+  max-width: 420px;
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px);
+  transform: scale(1.1);
+}
+
+.pokebola {
+    width: 150px;
+    max-width: 100%;
+    cursor: pointer;
+}
+
+.pokebola.shake {
+    animation: shake 0.5s;
+}
+
+@keyframes shake {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(-20deg); }
+    50% { transform: rotate(20deg); }
+    75% { transform: rotate(-20deg); }
+    100% { transform: rotate(0deg); }
+}
+
+.imagempokemon {
+    width: 200px;
+    max-width: 100%;
+    margin-top: 20px;
+    filter: drop-shadow(0 12px 22px rgb(227, 243, 0));
+    animation: aparecer 1s ease;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: scale(0.10);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+.nomepokemon {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #333;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
