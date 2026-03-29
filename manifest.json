@@ -1,0 +1,15 @@
+{
+  "name": "Pokébola Misteriosa",
+  "short_name": "Pokebola",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ff0000",
+  "icons": [
+    {
+      "src": "pokebola.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
